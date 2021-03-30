@@ -1,10 +1,10 @@
 const express = require('express');
 const app = express();
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 4000;
 
 app.get('/',(req,res) =>{
-    res.send("I am running well ato port 5000.Hello sir!");
+    res.send("I am for port  4000 on local machine too.");
 })
 app.listen(PORT,
-    console.log("I am running at port 5000. Hello ha ha ha .")
+    console.log("I am running at port 4000.")
     );
